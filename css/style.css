@@ -1,0 +1,162 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #EDF1D6;
+  min-height: 100vh;
+
+}
+
+main{
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+input{
+  border: 0px;
+}
+
+textarea{
+  border: 0px;
+}
+
+.navbar{
+  background-color: #40513B !important;
+}
+
+.navbar a{
+  color: white !important;
+}
+
+header {
+  background-color: aquamarine;
+}
+
+.offer {
+  border: 1px solid darkblue;
+}
+.offer img {
+  height: 230px;
+}
+
+.price{
+  font-weight: bold;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;}
+
+.card img{
+  height: 212px;
+  margin-bottom: 10px;
+}
+
+
+.carousel{
+  height: 350px;
+}
+
+.carousel img{
+  height: 350px;
+}
+
+.contacto .col-12{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 910px) {
+  .contacto input,
+  .contacto textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 911px) {
+  .contacto input,
+  .contacto textarea {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+.contacto textarea {
+  width: 50%;
+  margin-bottom: 10px;
+
+}
+
+.btn-enviar {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #609966;
+  box-shadow: 0 5px #40513B;
+}
+
+.btn-enviar:hover {
+  box-shadow: 0 3px #40513B;
+  top: 1px;
+}
+
+.btn-enviar:active {
+  box-shadow: 0 0 #40513B;
+  top: 5px;
+}
+
+footer {
+  background-color: #40513B;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.carrito .card{
+  height: min-content;
+  width:100%;
+}
+
+.carrito img {
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+}
+
+.carrito .total {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.carrito .checkout {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.carrito .checkout button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
