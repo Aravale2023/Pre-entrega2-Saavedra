@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*los primeros partial son las variables */
 /*codigo de tu proyecto */
 @font-face {
@@ -74,6 +73,7 @@ body {
 .offer img {
   height: 230px;
   object-fit: cover;
+  transition: transform 0.3s;
 }
 
 .product .card {
@@ -99,6 +99,9 @@ body {
   justify-content: center;
   align-content: center;
   grid-template-areas: "a1 a1 a1" "a2 a2 a2" "a3 a3 a3";
+}
+.section-1 .productos-sanos, .section-2 .productos-sanos {
+  transform: scale(1.1);
 }
 
 .contacto .col-12 {
@@ -153,7 +156,7 @@ body {
 .perfil .image {
   width: 100%;
   height: 100%;
-  transition: transform 0.3s; /* Agrega una transición suave para el efecto de agrandar */
+  transition: transform 0.3s;
 }
 .perfil .edit-text {
   position: absolute;
