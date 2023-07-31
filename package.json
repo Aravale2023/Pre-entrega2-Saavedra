@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Aravale2023/Pre-entrega2-Saavedra#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "D": "^1.0.0",
     "node-sass": "^9.0.0",
     "nodemon": "^3.0.1"

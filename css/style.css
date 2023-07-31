@@ -100,9 +100,6 @@ body {
   align-content: center;
   grid-template-areas: "a1 a1 a1" "a2 a2 a2" "a3 a3 a3";
 }
-.section-1 .productos-sanos, .section-2 .productos-sanos {
-  transform: scale(1.1);
-}
 
 .contacto .col-12 {
   display: flex;
