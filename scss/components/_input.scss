@@ -1,0 +1,9 @@
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 0px;
+  :hover {
+    border: 1px solid $primary;
+  }
+}

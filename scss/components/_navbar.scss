@@ -1,0 +1,15 @@
+.navbar {
+  background-color: $primary !important;
+  a {
+    color: white !important;
+    @include flex(column, wrap, center, center);
+  }
+}
+
+/* .navbar {
+    background-color: #40513b !important;
+  }
+
+  .navbar a {
+    color: white !important;
+  }*/

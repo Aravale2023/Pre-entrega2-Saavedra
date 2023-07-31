@@ -1,0 +1,13 @@
+.contacto {
+  .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 911px) {
+  .contacto input,
+  .contacto textarea {
+    width: 50%;
+  }
+}

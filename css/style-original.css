@@ -1,0 +1,75 @@
+
+input,
+textarea {
+  border: 0;
+}
+
+
+
+header {
+  background-color: aquamarine;
+}
+
+/*Product Seccion*/
+
+
+
+
+/*Contact Seccion*/
+.contacto .col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 911px) {
+  .contacto input,
+  .contacto textarea {
+    width: 50%;
+  }
+}
+
+.contacto textarea {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.btn-enviar {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #609966;
+  box-shadow: 0 5px #40513b;
+}
+
+.btn-enviar:hover {
+  box-shadow: 0 3px #40513b;
+  top: 1px;
+}
+
+.btn-enviar:active {
+  box-shadow: 0 0 #40513b;
+  top: 5px;
+}
+
+
+/*footer*/
+
+
+/* Perfil*/
+

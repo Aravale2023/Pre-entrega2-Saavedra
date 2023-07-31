@@ -1,0 +1,16 @@
+/*los primeros partial son las variables */
+@import "./utilities/variables";
+@import "./utilities/mixins";
+/*codigo de tu proyecto */
+@import "./base/reset";
+@import "./components/navbar";
+@import "./components/carrusel";
+@import "./components/offer";
+@import "./components/producto.scss";
+@import "./pages/contacto";
+@import "./pages/carrito";
+@import "./pages/perfil";
+@import "./layout/main";
+@import "./layout/footer";
+@import "./components/input";
+@import "./components/button";

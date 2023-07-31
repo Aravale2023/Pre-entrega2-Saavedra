@@ -1,0 +1,22 @@
+.offer {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: floralwhite;
+  .card {
+    border: 0px !important;
+    background-color: transparent;
+  }
+  .card-offer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #a01313;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  img {
+    height: 230px;
+    object-fit: cover;
+  }
+}

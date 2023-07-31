@@ -1,0 +1,24 @@
+.btn-enviar {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #609966;
+  box-shadow: 0 5px #40513b;
+  :hover {
+    box-shadow: 0 3px #40513b;
+    top: 1px;
+  }
+  :active {
+    box-shadow: 0 0 #40513b;
+    top: 5px;
+  }
+}

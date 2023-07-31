@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins" !important;
+  display: flex;
+  flex-direction: column;
+  background-color: $backgroundColor;
+  min-height: 100vh;
+}

@@ -1,0 +1,29 @@
+.product {
+  .card {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+    img {
+      height: 212px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.price {
+  font-weight: bold;
+}
+.section-1 {
+  @include grid(
+    repeat(2, 1Fr),
+    1fr 200px 300px,
+    center,
+    center,
+    "a1 a1 a1" "a2 a2 a2" "a3 a3 a3"
+  );
+}
+.section-2 {
+  @extend.section-1;
+}
