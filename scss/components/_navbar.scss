@@ -1,8 +1,12 @@
 .navbar {
   background-color: $primary !important;
   a {
-    color: white !important;
+    color: darkgrey !important;
     @include flex(column, wrap, center, center);
+  }
+  .active {
+    color: white !important;
+    border-bottom: 1px solid white;
   }
 }
 

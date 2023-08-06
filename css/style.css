@@ -22,12 +22,16 @@ body {
   background-color: #40513b !important;
 }
 .navbar a {
-  color: white !important;
+  color: darkgrey !important;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.navbar .active {
+  color: white !important;
+  border-bottom: 1px solid white;
 }
 
 /* .navbar {
