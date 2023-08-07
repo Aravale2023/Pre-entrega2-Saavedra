@@ -2,13 +2,18 @@
   .card {
     width: 300px;
     height: 400px;
-    border-radius: 5px;
+    border-radius: $radius;
     margin: 5px 0;
     text-align: center;
 
     img {
       height: 212px;
       margin-bottom: 10px;
+      border-top-left-radius: $radius;
+      border-top-right-radius: $radius;
+    }
+    :hover {
+      cursor: pointer;
     }
   }
 }

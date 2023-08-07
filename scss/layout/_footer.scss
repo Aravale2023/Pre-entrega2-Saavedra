@@ -1,8 +1,15 @@
 footer {
   background-color: $primary;
   color: white;
-  height: 50px;
+  height: max-content;
   text-align: center;
-  padding: 10px;
+  padding: 50px;
   margin-top: auto;
+  .row {
+    color: white;
+    margin-top: 100px;
+    height: 100px;
+    padding: 50px;
+    cursor: pointer;
+  }
 }
