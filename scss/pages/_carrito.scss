@@ -1,7 +1,9 @@
 .carrito {
   .card {
     height: min-content;
-    width: 100%;
+    p {
+      margin: 0px;
+    }
   }
   img {
     height: 100px;

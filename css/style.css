@@ -124,7 +124,9 @@ body {
 }
 .carrito .card {
   height: min-content;
-  width: 100%;
+}
+.carrito .card p {
+  margin: 0px;
 }
 .carrito img {
   height: 100px;
@@ -220,7 +222,7 @@ textarea :hover {
   border: 1px solid #40513b;
 }
 
-.btn-enviar {
+.btn-send {
   min-width: 130px;
   height: 40px;
   color: #fff;
@@ -236,11 +238,11 @@ textarea :hover {
   background: #609966;
   box-shadow: 0 5px #40513b;
 }
-.btn-enviar :hover {
+.btn-send :hover {
   box-shadow: 0 3px #40513b;
   top: 1px;
 }
-.btn-enviar :active {
+.btn-send :active {
   box-shadow: 0 0 #40513b;
   top: 5px;
 }
