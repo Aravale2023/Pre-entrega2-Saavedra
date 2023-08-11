@@ -21,15 +21,3 @@
 .price {
   font-weight: bold;
 }
-.section-1 {
-  @include grid(
-    repeat(2, 1Fr),
-    1fr 200px 300px,
-    center,
-    center,
-    "a1 a1 a1" "a2 a2 a2" "a3 a3 a3"
-  );
-}
-.section-2 {
-  @extend.section-1;
-}
