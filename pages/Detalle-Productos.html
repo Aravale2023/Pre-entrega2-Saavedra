@@ -32,6 +32,7 @@
       href="../bootstrap-5.0.2-dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <script defer type="module" src="../js/detalles.js"></script>
   </head>
   <body>
     <header>
@@ -74,7 +75,9 @@
       </nav>
     </header>
     <main>
-      <section class="mb-5" style="border-top: 1px solid gray">
+      <button class="btn-add" onclick="addProducto('${producto}')">test</button>
+      <section id="detalleProductoId"></section>
+      <!--<section class="mb-5" style="border-top: 1px solid gray">
         <h2 class="my-3">Humus</h2>
         <img src="../assets/img/humus.jpg" alt="" sizes="" />
         <p class="my-3">
@@ -105,6 +108,7 @@
         </table>
       </section>
       <section class="mb-5" style="border-top: 1px solid gray">
+        <div class="row" id="SeleccionId"></div>
         <h2 class="my-3"></h2>
         <img src="../assets/img/carne-vegetal.jpg" alt="" sizes="" />
         <p class="my-3">
@@ -131,95 +135,7 @@
             </tr>
           </tbody>
         </table>
-      </section>
-      <section class="mb-5" style="border-top: 1px solid gray">
-        <h2 class="my-3">Tofu</h2>
-        <img src="../assets/img/tofu.jpg" alt="" sizes="" />
-        <p class="my-3">
-          <strong> El tofu</strong> es una comida de origen oriental, preparada
-          es una comida de origen oriental, preparada con semillas de soja, agua
-          y solidificante o coagulante. Se destaca por el valor nutritivo de la
-          proteína de soja y en su capacidad para reducir el colesterol en
-          sangre, entre otros beneficios.
-        </p>
-        <button class="btn-send">Guardar en una lista</button>
-        <button class="btn-add">Agregar</button>
-        <h3 class="mt-4">Caracteristicas</h3>
-        <table class="table">
-          <tbody>
-            <tr>
-              <td>Tipo de Producto:</td>
-              <td>Tofu</td>
-            </tr>
-            <tr>
-              <td>Envase:</td>
-              <td>bolsa</td>
-            </tr>
-            <tr>
-              <td>Contenido</td>
-              <td>250 g</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="mb-5" style="border-top: 1px solid gray">
-        <h2 class="my-3">Proteina de Soya</h2>
-        <img src="../assets/img/Proteina-soya.jpg" alt="" sizes="" />
-        <p class="my-3">
-          <strong> Es una proteína</strong> de origen vegetal que proviene de la
-          soja, que es una leguminosa. Es una muy buena fuente de proteínas
-          tanto para vegetarianos como veganos, y para personas que no quieren
-          consumir lácteos.
-        </p>
-        <button class="btn-send">Guardar en una lista</button>
-        <button class="btn-add">Agregar</button>
-        <h3 class="mt-4">Caracteristicas</h3>
-        <table class="table">
-          <tbody>
-            <tr>
-              <td>Tipo de Producto:</td>
-              <td>Proteina de soya</td>
-            </tr>
-            <tr>
-              <td>Envase:</td>
-              <td>bolsa</td>
-            </tr>
-            <tr>
-              <td>Contenido</td>
-              <td>1 kg</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="mb-5" style="border-top: 1px solid gray">
-        <h2 class="my-3">Bebida vegetal</h2>
-        <img src="../assets/img/bebida-vegetal.jpg" alt="" sizes="" />
-        <p class="my-3">
-          <strong>La leche de almendras </strong> es un alimento líquido
-          elaborado a partir de almendras molidas ─o pasta de almendras─ y agua.
-          Es consumida tanto pura como utilizada de ingrediente en recetas de
-          cocina.
-        </p>
-        <button class="btn-send">Guardar en una lista</button>
-        <button class="btn-add">Agregar</button>
-        <h3 class="mt-4">Caracteristicas</h3>
-        <table class="table">
-          <tbody>
-            <tr>
-              <td>Tipo de Producto:</td>
-              <td>Humus Proteina de soya</td>
-            </tr>
-            <tr>
-              <td>Envase:</td>
-              <td>bolsa</td>
-            </tr>
-            <tr>
-              <td>Contenido</td>
-              <td>1 kg</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+      </section>-->
     </main>
     <footer class="container-fluid">
       <div class="row">
