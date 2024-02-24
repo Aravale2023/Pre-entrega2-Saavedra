@@ -29,10 +29,17 @@
     />
     <link
       rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="../bootstrap-5.0.2-dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
     <script defer type="module" src="../js/detalles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <header>
@@ -64,7 +71,7 @@
                 <a class="nav-link" href="./Contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../Carrito.html">Carrito</a>
+                <a class="nav-link" href="./Carrito.html">Carrito</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./Perfil.html">Perfil</a>
@@ -75,8 +82,54 @@
       </nav>
     </header>
     <main>
-      <button class="btn-add" onclick="addProducto('${producto}')">test</button>
       <section id="detalleProductoId"></section>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Lo que llevas en tu carro
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p id="variableOutputNombreId"></p>
+              <p id="variableOutputPrecioId"></p>
+              <input type="number" id="cantidadInputId" />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                id="btnAgregarCarritoId"
+                data-bs-dismiss="modal"
+              >
+                Agregar al carrito
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!--<section class="mb-5" style="border-top: 1px solid gray">
         <h2 class="my-3">Humus</h2>
         <img src="../assets/img/humus.jpg" alt="" sizes="" />
@@ -155,5 +208,9 @@
       </div>
     </footer>
     <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
   </body>
 </html>

@@ -39,3 +39,9 @@ Con el fin de mejorar la apariencia visual y el diseño estético del sitio, se 
 ### Bootstrap:
 
 Para asegurar una óptima adaptabilidad y atractivo en distintos dispositivos y pantallas, se ha integrado el framework Bootstrap en el desarrollo del diseño, permitiendo una navegación cómoda y efectiva.
+
+### INICIAR
+
+- ejecutar en terminal npm i
+- ejecutar npm run sass:watch
+- iniciar live server

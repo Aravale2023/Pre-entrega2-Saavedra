@@ -119,10 +119,9 @@ body {
 .carrito .card p {
   margin: 0px;
 }
-.carrito img {
-  height: 100px;
-  width: 100px;
-  margin: 0;
+.carrito .card img {
+  width: 100%;
+  object-fit: contain;
 }
 .carrito .total {
   text-align: right;
@@ -179,6 +178,11 @@ body {
 .perfil span:hover {
   cursor: pointer;
   color: blue;
+}
+
+#detalleProductoId img {
+  width: 100%;
+  object-fit: contain;
 }
 
 main {
@@ -243,6 +247,14 @@ textarea :hover {
 .btn-add {
   border: 2px solid #40513b;
   background: transparent;
+}
+
+#alerta,
+#alertaOK,
+#alertaError {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
